@@ -1,0 +1,32 @@
+body {
+  margin:0;
+  padding:0;
+}
+nav {
+  background-color:darkred;
+ height:50px;
+ display:flex;
+ justify-content:space-between;
+/* background: linear-gradient(white, black) no-repeat;*/
+/* background-image: url("https://npr.brightspotcdn.com/dims4/default/e005b95/2147483647/strip/true/crop/1280x739+0+0/resize/1760x1016!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fwp-content%2Fuploads%2F2017%2F05%2F25123808%2Fweb.jpg")*/
+}
+nav a {
+  color:white;
+  text-decoration:none;
+  margin:auto;
+}
+nav a:hover{
+  color:black;
+}
+nav a:visited{
+  color:purple;
+}
+nav a:active{
+  color:red;
+}
+nav a:link{
+  color:white
+}
+.galeria{
+  width:200px;
+}
